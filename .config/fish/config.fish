@@ -10,4 +10,3 @@ end
 # !! Contents within this block are managed by 'conda init' !!
 eval /home/csr/anaconda3/bin/conda "shell.fish" "hook" $argv | source
 # <<< conda initialize <<<
-set -x DISPLAY 172.18.48.1
