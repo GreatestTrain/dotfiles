@@ -1,8 +1,8 @@
-{{- $email := promptStringOnce . "email" "Email Address" -}}
-{{- $name := prompStringOnce. "name" "Name" -}}
+{{- $email := promptStringOnce . "email" "Email Address (github)" -}}
+{{- $name := promptStringOnce. "name" "Name" -}}
 
 [data]
     email = {{ $email | quote }}
 
 [keepassxc]
-    database = "~/passwords/personal.kdbx"
+    database = "~/Passwords/personal.kdbx"
