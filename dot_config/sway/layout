@@ -1,0 +1,52 @@
+focus_follows_mouse no
+
+# for_window [app_id=".*"] floating enable
+
+
+for_window {
+    [app_id=".*"] border pixel 2
+    [app_id="qalculate-gtk"] {
+        floating enable
+        border csd
+    }
+    [app_id="pavucontrol"] {
+        floating enable
+        border csd
+    }
+    [app_id="org\.freedesktop\.impl\.portal.*"] {
+        floating enable
+    }
+    [app_id="looking-glass-client"] border none
+    [title="Firefox — Sharing Indicator"] floating enable
+    [app_id="org.keepassxc.KeePassXC"] floating enable
+}
+
+assign {
+    [app_id="libreoffice.*"] workspace number 3
+    [instance=".*libreoffice.*"] workspace number 3
+    [class="libreoffice.*"] workspace number 3
+    [class="Google-chrome"] workspace 2
+    [app_id="google-chrome"] workspace 2
+    [app_id="firefox"] workspace 2
+}
+
+for_window [app_id="nmtui"] {
+    floating enable
+    resize set width 800 height 500
+    focused true
+}
+
+for_window [app_id="pulsemixer"] {
+    floating enable
+    resize set width 800 height 200
+    focused true
+}
+
+for_window [window_role="dialog"] {
+    border none
+    floating enable
+}
+for_window [window_type="dialog"] {
+    border none
+    floaing enable
+}

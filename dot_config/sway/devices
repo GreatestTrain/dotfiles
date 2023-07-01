@@ -1,0 +1,11 @@
+input "type:touchpad" {
+    natural_scroll enabled
+    tap enabled
+    middle_emulation enabled
+}
+
+input "type:keyboard" {
+    xkb_layout "us,es"
+    xkb_options "grp:alts_toggle"
+}
+

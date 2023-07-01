@@ -1,0 +1,23 @@
+set $mod Mod4
+
+#
+# Volume keybidings
+#
+    bindsym XF86MonBrightnessUp exec light -A 5
+    bindsym XF86MonBrightnessDown exec light -U 5
+    bindsym XF86AudioMute exec pactl set-sink-volume @DEFAULT_SINK@ toggle
+    bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
+    bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
+    bindsym $mod+shift+s exec sh -c "slurp | grim -g - $(xdg-user-dir PICTURES)/Screenshots/$(date +'screenshot_%Y-%m-%d-%H%M%S.png')"
+
+bindsym $mod+Tab exec ~/.config/sway/scripts/switcher.sh
+# Gestures
+bindgesture swipe:4:right workspace prev
+bindgesture swipe:4:left workspace next
+# Allow container movements by pinching them
+bindgesture swipe:3:up move up
+bindgesture swipe:3:down move down
+bindgesture swipe:3:left move left
+bindgesture swipe:3:right move right
+
+bindgesture pinch:3:inward floating toggle
