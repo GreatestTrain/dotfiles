@@ -1,9 +1,11 @@
-{{- $email := promptStringOnce . "email" "Email Address (github)" -}}
-{{- $name := promptStringOnce . "name" "Name" -}}
+{{- $github_email := promptString "Git global user.email: " "96893357+GreatestTrain@users.noreply.github.com" -}}
+{{- $github_name := promptString "Git global user.name: " "GreatestTrain" -}}
 
-[data]
-    email = {{ $email | quote }}
-    name = {{ $name | quote }}
+data.cuda = {{ promptBool "Is cuda enabled: " false }}
+
+[data.github]
+	email = {{ $github_email | quote }}
+	name = {{ $github_name | quote }}
 
 [keepassxc]
-    database = "~/Passwords/personal.kdbx"
+	database = "~/Passwords/personal.kdbx"
