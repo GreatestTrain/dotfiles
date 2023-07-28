@@ -1,0 +1,4 @@
+[".config/nvim"]
+	type = "archive"
+	url = "https://github.com/GreatestTrain/nvim-config"
+	refreshperiod = "336h"
