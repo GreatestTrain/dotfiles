@@ -1,0 +1,21 @@
+{
+    "workbench.startupEditor": "none",
+    "jupyter.askForKernelRestart": false,
+    "editor.fontFamily": "'CaskaydiaCove', 'monospace', monospace",
+    "markdown.preview.fontFamily": "'Liberation Serif'",
+    "workbench.colorTheme": "Breeze Dark",
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ],
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "editor.autoIndent": "advanced",
+    "latex-workshop.linting.chktex.exec.path": "/usr/bin/chktex",
+    "workbench.editorAssociations": {
+        "*.pdf": "latex-workshop-pdf-hook"
+    },
+    "latex-workshop.latex.outDir": "%DIR%/.out",
+    "latex-workshop.linting.chktex.enabled": true,
+    "editor.minimap.showSlider": "always",
+    "editor.cursorSmoothCaretAnimation": "on"
+}
