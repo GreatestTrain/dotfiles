@@ -5,3 +5,7 @@
 	ui = auto
 [init]
 	defaultBranch = main
+[mergetool "nvimdiff3"]
+	cmd = nvim -d -O
+[merge]
+	tool = nvimdiff3
