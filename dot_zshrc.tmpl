@@ -4,13 +4,3 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 source /usr/share/doc/pkgfile/command-not-found.zsh
 
 alias check_gpu_power="cat /sys/class/drm/card*/device/power_state"
-
-if [ -z "$XDG_CURRENT_DESKTOP" ]; then
-    # export QT_STYLE_OVERRIDE=Adwaita-Dark
-fi
-
-PATH="/home/rml/perl5/bin${PATH:+:${PATH}}"; export PATH;
-PERL5LIB="/home/rml/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="/home/rml/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"/home/rml/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/home/rml/perl5"; export PERL_MM_OPT;
