@@ -3,7 +3,7 @@
     "jupyter.askForKernelRestart": false,
     "editor.fontFamily": "'CaskaydiaCove', 'monospace', monospace",
     "markdown.preview.fontFamily": "'Liberation Serif'",
-    "workbench.colorTheme": "Breeze Dark",
+    "workbench.colorTheme": "Mayukai Mirage Gruvbox Darktooth",
     "jupyter.widgetScriptSources": [
         "jsdelivr.com",
         "unpkg.com"
