@@ -1,0 +1,169 @@
+[$Version]
+update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,icons_remove_effects.upd:IconsRemoveEffects,kwin.upd:animation-speed,style_widgetstyle_default_breeze.upd:StyleWidgetStyleDefaultBreeze
+
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=112,111,110
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=1
+Enable=
+IntensityAmount=0.1
+IntensityEffect=0
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=false
+Color=112,111,110
+ColorAmount=0.025
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=2
+Enable=true
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=73,152,194
+BackgroundNormal=102,102,105
+DecorationFocus=61,174,233
+DecorationHover=61,174,233
+ForegroundActive=61,174,233
+ForegroundInactive=160,160,160
+ForegroundLink=61,174,233
+ForegroundNegative=240,1,1
+ForegroundNeutral=255,221,0
+ForegroundNormal=255,255,255
+ForegroundPositive=128,255,128
+ForegroundVisited=255,102,102
+
+[Colors:Complementary]
+DecorationFocus=61,174,233
+DecorationHover=61,174,233
+ForegroundActive=61,174,233
+ForegroundLink=61,174,233
+
+[Colors:Selection]
+BackgroundAlternate=54,133,175
+BackgroundNormal=54,133,175
+DecorationFocus=61,174,233
+DecorationHover=61,174,233
+ForegroundActive=61,174,233
+ForegroundInactive=255,255,255
+ForegroundLink=61,174,233
+ForegroundNegative=240,1,1
+ForegroundNeutral=255,221,0
+ForegroundNormal=255,255,255
+ForegroundPositive=128,255,128
+ForegroundVisited=255,102,102
+
+[Colors:Tooltip]
+BackgroundAlternate=0,0,0
+BackgroundNormal=0,0,0
+DecorationFocus=61,174,233
+DecorationHover=61,174,233
+ForegroundActive=61,174,233
+ForegroundInactive=225,225,225
+ForegroundLink=61,174,233
+ForegroundNegative=240,1,1
+ForegroundNeutral=255,221,0
+ForegroundNormal=255,255,255
+ForegroundPositive=128,255,128
+ForegroundVisited=255,102,102
+
+[Colors:View]
+BackgroundAlternate=50,50,50
+BackgroundNormal=40,40,40
+DecorationFocus=61,174,233
+DecorationHover=61,174,233
+ForegroundActive=61,174,233
+ForegroundInactive=160,160,160
+ForegroundLink=61,174,233
+ForegroundNegative=240,1,1
+ForegroundNeutral=255,221,0
+ForegroundNormal=255,255,255
+ForegroundPositive=128,255,128
+ForegroundVisited=255,102,102
+
+[Colors:Window]
+BackgroundAlternate=51,50,48
+BackgroundNormal=51,50,48
+DecorationFocus=61,174,233
+DecorationHover=61,174,233
+ForegroundActive=61,174,233
+ForegroundInactive=160,160,160
+ForegroundLink=61,174,233
+ForegroundNegative=240,1,1
+ForegroundNeutral=255,221,0
+ForegroundNormal=255,255,255
+ForegroundPositive=128,255,128
+ForegroundVisited=255,102,102
+
+[DirSelect Dialog]
+DirSelectDialog Size=1164,703
+History Items[$e]=file:///usr/share/backgrounds,file:///usr/share/julia,file:$HOME/dev/opencl,file:$HOME/dev/opencl/opencl/build,file:$HOME/dev/opencl/opencl/,file:$HOME/dev/opencl/opencl,file:$HOME/dev/opencl/opencl,file:$HOME/dev/opencl/opencl,file:$HOME/dev/opencl,file:$HOME/Downloads/Akava-Kv,activities:/current/,activities:/,file:$HOME/.local/share/wineprefixes/wine_game/,file:$HOME/.local/share/wineprefixes/wine_game/,file:$HOME/.local/,file:$HOME/Pictures/Scanned,file:///var/games/steamapps/compatdata,file:///var/,file:///var/games/,file:$HOME/dev/pytorch/datasets/summer2winter_yosemite
+
+[General]
+AccentColor=61,174,233
+BrowserApplication=firefox.desktop
+ColorSchemeHash=c92c43d6dc03b70def2be43f60a0877d4faf158f
+LastUsedCustomAccentColor=61,174,233
+Name=ColloidNordDark
+XftHintStyle=hintfull
+XftSubPixel=rgb
+fixed=LiterationMono Nerd Font,11,-1,5,50,0,0,0,0,0
+font=Sans Serif,11,-1,5,50,0,0,0,0,0
+menuFont=Sans Serif,11,-1,5,50,0,0,0,0,0
+shadeSortColumn=true
+smallestReadableFont=Sans Serif,9,-1,5,50,0,0,0,0,0
+toolBarFont=Sans Serif,11,-1,5,50,0,0,0,0,0
+widgetStyle=kvantum-dark
+
+[Icons]
+Theme=WhiteSur-dark
+
+[KDE]
+AnimationDurationFactor=0.7071067811865475
+ColorScheme=ColloidDarkNord
+LookAndFeelPackage=org.kde.breezedark.desktop
+ShowDeleteCommand=false
+SingleClick=false
+contrast=4
+widgetStyle=Breeze
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=false
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Preview Width=207
+Show Bookmarks=false
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=true
+Show Speedbar=true
+Show hidden files=false
+Sort by=Date
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=true
+Speedbar Width=221
+View Style=Simple
+
+[KShortcutsDialog Settings]
+Dialog Size=790,620
+
+[PreviewSettings]
+MaximumRemoteSize=3145728
+MaximumSize=67108864
+
+[WM]
+activeBackground=53,52,50
+activeBlend=51,50,48
+activeFont=Sans Serif,11,-1,5,50,0,0,0,0,0
+activeForeground=255,255,255
+inactiveBackground=61,62,67
+inactiveBlend=59,60,65
+inactiveForeground=150,150,150
