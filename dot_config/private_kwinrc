@@ -65,12 +65,14 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][92e842d7-5928-5c43-884a-4912e7cc82ed]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][fc9b9063-23da-5c64-b4cf-4f2a7775987b]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Windows]
-BorderlessMaximizedWindows=true
 ElectricBorders=1
 
 [Xwayland]
-Scale=1
+Scale=1.25
 
 [org.kde.kdecoration2]
 ButtonsOnLeft=MFS
