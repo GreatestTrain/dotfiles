@@ -1,9 +1,9 @@
 [Appearance]
 AntiAliasFonts=true
 BoldIntense=true
-ColorScheme=Breeze
+ColorScheme=DarkPastels
 EmojiFont=Noto Color Emoji,16,-1,5,50,0,0,0,0,0
-Font=CaskaydiaCove Nerd Font,12,-1,5,50,0,0,0,0,0
+Font=CaskaydiaCove NF,12,-1,5,50,0,0,0,0,0
 LineSpacing=1
 UseFontLineChararacters=true
 

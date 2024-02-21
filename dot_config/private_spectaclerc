@@ -3,6 +3,9 @@ update_info=spectacle_clipboard.upd:clipboard-settings-change,spectacle_remember
 
 [Annotations]
 annotationToolType=8
+arrowShadow=false
+arrowStrokeColor=202,255,12
+textShadow=false
 
 [General]
 clipboardGroup=PostScreenshotCopyImage
@@ -12,5 +15,11 @@ showCaptureInstructions=false
 captureMode=0
 window-position=0,0
 
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Pictures/Screenshots/Screenshot_20231130_160431.png,file:$HOME/Pictures/Screenshots/Screenshot_20231207_135744.png
+Recent URLs[$e]=file:$HOME/Pictures/Screenshots/,file:$HOME/
+listViewIconSize=64
+
 [Save]
-lastSaveLocation=file:///home/rml/Pictures/Screenshot_20230214_130253.png
+lastSaveAsLocation=file:///home/rml/Pictures/Screenshots/Screenshot_20231207_135744.png
+lastSaveLocation=file:///home/rml/Pictures/Screenshots/Screenshot_20231207_135744.png

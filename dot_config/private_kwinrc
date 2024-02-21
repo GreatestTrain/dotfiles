@@ -4,7 +4,7 @@ update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-
 [Compositing]
 GLPreferBufferSwap=e
 GLTextureFilter=1
-LatencyPolicy=Low
+LatencyPolicy=Medium
 
 [Desktops]
 Id_1=533d3d92-11c1-42e0-8192-5a49275ebfa4
@@ -30,31 +30,40 @@ InitialZoom=1.44
 ShowText=false
 
 [Effect-windowview]
-BorderActivateAll=9
+BorderActivateAll=5
 
 [ModifierOnlyShortcuts]
 Meta=org.kde.krunner,/App,,toggleDisplay
 
 [NightColor]
 Active=true
-NightTemperature=5700
+LatitudeAuto=-12.07
+LongitudeAuto=-75.23
+NightTemperature=5800
 
 [Plugins]
 blurEnabled=true
-contrastEnabled=true
+contrastEnabled=false
 desktopchangeosdEnabled=false
 kwin4_effect_dimscreenEnabled=true
-kwin4_effect_squashEnabled=false
 kwin4_effect_translucencyEnabled=true
-magiclampEnabled=true
 mouseclickEnabled=true
 wobblywindowsEnabled=true
+
+[TabBox]
+LayoutName=thumbnail_grid
 
 [TabBoxAlternative]
 LayoutName=compact
 
 [Tiling]
 padding=4
+
+[Tiling][1f792ed9-eba5-5d14-9e01-6e39fa9d8829]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][6ffc9819-b5ee-5c93-9bb7-4e62e3c4d161]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][756d1eda-5534-5566-932f-aa918833cc56]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.4203125},{"width":0.5796875}]}
@@ -66,13 +75,20 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][fc9b9063-23da-5c64-b4cf-4f2a7775987b]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+tiles={"layoutDirection":"horizontal","tiles":[{"layoutDirection":"vertical","tiles":[{"height":0.5},{"height":0.5}],"width":0.4},{"layoutDirection":"floating","tiles":[{"height":0.25,"width":0.3,"x":0.45,"y":0.05}],"width":0.6}]}
 
 [Windows]
+BorderlessMaximizedWindows=true
+ElectricBorderDelay=100
 ElectricBorders=1
 
 [Xwayland]
 Scale=1.25
 
 [org.kde.kdecoration2]
-ButtonsOnLeft=MFS
+BorderSize=None
+BorderSizeAuto=false
+ButtonsOnLeft=XAIL
+ButtonsOnRight=FSM
+library=org.kde.breezeenhanced
+theme=BreezeEnhanced

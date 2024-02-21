@@ -90,11 +90,11 @@ Color=212,190,152
 
 [General]
 Anchor=0.5,0.5
-Blur=false
+Blur=true
 ColorRandomization=false
 Description=Gruvbox Material Soft Dark
 FillStyle=Tile
-Opacity=1
+Opacity=0.97
 Wallpaper=
 WallpaperFlipType=NoFlip
 WallpaperOpacity=1
