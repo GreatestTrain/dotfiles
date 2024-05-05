@@ -15,11 +15,15 @@ showCaptureInstructions=false
 captureMode=0
 window-position=0,0
 
+[ImageSave]
+lastImageSaveAsLocation=file:///home/rml/Pictures/Screenshots/Screenshot_20231207_135744.png
+lastImageSaveLocation=file:///home/rml/Pictures/Screenshots/Screenshot_20231207_135744.png
+translatedScreenshotsFolder=Screenshots
+
 [KFileDialog Settings]
 Recent Files[$e]=file:$HOME/Pictures/Screenshots/Screenshot_20231130_160431.png,file:$HOME/Pictures/Screenshots/Screenshot_20231207_135744.png
 Recent URLs[$e]=file:$HOME/Pictures/Screenshots/,file:$HOME/
 listViewIconSize=64
 
-[Save]
-lastSaveAsLocation=file:///home/rml/Pictures/Screenshots/Screenshot_20231207_135744.png
-lastSaveLocation=file:///home/rml/Pictures/Screenshots/Screenshot_20231207_135744.png
+[VideoSave]
+translatedScreencastsFolder=Screencasts

@@ -35,7 +35,7 @@ HDMI-A-1 Virtual-Virtual2 Width 1920x1080 Virtual-Virtual2=1139
 HDMI-A-1 Virtual-Virtual2 Window-Maximized 1920x1080 Virtual-Virtual2=true
 HDMI-A-1 Width 1920x1080 HDMI-A-1=744
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAQAAAAAAAAESAAABx/wCAAAAAvsAAAAiAFEAdQBpAGMAawBDAG8AbQBtAGEAbgBkAHMARABvAGMAawAAAABGAAABxwAAAXQBAAAD+wAAABwAUwBTAEgATQBhAG4AYQBnAGUAcgBEAG8AYwBrAAAAAEYAAAHHAAABCwEAAAMAAAYAAAADNgAAAAQAAAAEAAAACAAAAAj8AAAAAgAAAAIAAAAAAAAAAgAAAAIAAAAcAHMAZQBzAHMAaQBvAG4AVABvAG8AbABiAGEAcgAAAAAA/////wAs/UUAFoDtAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+RestorePositionForNextInstance=false
 ToolBarsMovable=Disabled
 
 [SearchSettings]
@@ -47,6 +47,7 @@ SplitDragHandleSize=SplitDragHandleMedium
 
 [TabBar]
 CloseTabOnMiddleMouseButton=true
+ExpandTabWidth=true
 NewTabBehavior=PutNewTabAfterCurrentTab
 NewTabButton=true
 TabBarPosition=Bottom

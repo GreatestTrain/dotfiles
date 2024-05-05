@@ -15,7 +15,8 @@ Number=4
 Rows=2
 
 [Effect-blur]
-NoiseStrength=14
+BlurStrength=5
+NoiseStrength=4
 
 [Effect-diminactive]
 Strength=15
@@ -43,15 +44,25 @@ NightTemperature=5800
 
 [Plugins]
 blurEnabled=true
-contrastEnabled=false
+contrastEnabled=true
 desktopchangeosdEnabled=false
+krohnkiteEnabled=false
 kwin4_effect_dimscreenEnabled=true
 kwin4_effect_translucencyEnabled=true
 mouseclickEnabled=true
+synchronizeskipswitcherEnabled=false
 wobblywindowsEnabled=true
 
+[Script-krohnkite]
+maximizeSoleTile=true
+noTileBorder=true
+screenGapBottom=3
+screenGapLeft=3
+screenGapRight=3
+screenGapTop=3
+
 [TabBox]
-LayoutName=thumbnail_grid
+LayoutName=sidebar
 
 [TabBoxAlternative]
 LayoutName=compact
@@ -60,7 +71,7 @@ LayoutName=compact
 padding=4
 
 [Tiling][1f792ed9-eba5-5d14-9e01-6e39fa9d8829]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.4485677083333333},{"width":0.5514322916666665}]}
 
 [Tiling][6ffc9819-b5ee-5c93-9bb7-4e62e3c4d161]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -77,9 +88,12 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][fc9b9063-23da-5c64-b4cf-4f2a7775987b]
 tiles={"layoutDirection":"horizontal","tiles":[{"layoutDirection":"vertical","tiles":[{"height":0.5},{"height":0.5}],"width":0.4},{"layoutDirection":"floating","tiles":[{"height":0.25,"width":0.3,"x":0.45,"y":0.05}],"width":0.6}]}
 
+[Wayland]
+InputMethod[$e]=/usr/share/applications/org.fcitx.Fcitx5.desktop
+
 [Windows]
 BorderlessMaximizedWindows=true
-ElectricBorderDelay=100
+ElectricBorderDelay=50
 ElectricBorders=1
 
 [Xwayland]
@@ -90,5 +104,5 @@ BorderSize=None
 BorderSizeAuto=false
 ButtonsOnLeft=XAIL
 ButtonsOnRight=FSM
-library=org.kde.breezeenhanced
-theme=BreezeEnhanced
+library=org.kde.klassy
+theme=Klassy
