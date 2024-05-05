@@ -1,5 +1,5 @@
 [".config/nvim"]
 	type = "git-repo"
 	url = "https://github.com/GreatestTrain/nvim-config"
-	refreshperiod = "336h"
+	refreshperiod = "24h"
 
