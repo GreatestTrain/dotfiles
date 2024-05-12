@@ -8,7 +8,7 @@ sourceDir = "~/.dotfiles"
     autoPush = true
 	autoAdd = true
 	autoCommit = true
-	commitMessageTemplate = '{{ now | quote }}'
+	commitMessageTemplate = ´{{ now | quote }}´
 
 [data.git]
 	email = {{- promptString "Git global user.email: " "96893357+GreatestTrain@users.noreply.github.com" | quote -}}
