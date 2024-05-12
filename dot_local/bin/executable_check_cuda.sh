@@ -2,11 +2,11 @@
 
 if which nvcc &>/dev/null; then
 	if nvcc --version &>/dev/null; then
-		echo true
+		printf true
 	else
-		false
+		printf false
 	fi
 else
-	echo false
+	printf false
 fi
 
