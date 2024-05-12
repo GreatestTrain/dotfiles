@@ -1,7 +1,0 @@
-[Unit]
-Description=Rclone services Target
-Requires=xdg-desktop-autostart.target 
-After=xdg-desktop-autostart.target
-
-[Install]
-WantedBy=basic.target

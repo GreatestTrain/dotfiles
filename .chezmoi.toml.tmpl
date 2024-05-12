@@ -1,11 +1,22 @@
-{{- $github_email := promptString "Git global user.email: " "96893357+GreatestTrain@users.noreply.github.com" -}}
-{{- $github_name := promptString "Git global user.name: " "GreatestTrain" -}}
+{{- $git_mail := promptString "Git global user.email: " "96893357+GreatestTrain@users.noreply.github.com" -}}
+{{- $git_name := promptString "Git global user.name: " "GreatestTrain" -}}
 
 data.cuda = {{ promptBool "Is cuda enabled: " false }}
 
-[data.github]
-	email = {{ $github_email | quote }}
-	name = {{ $github_name | quote }}
+sourceDir = "~/.dotfiles"
+[git]
+    autoPush = true
+	autoAdd = true
+	autoCommit = true
+	commitMessageTemplate = "{{ now | quote }}"
+
+[data.git]
+	email = {{ $git_email | quote }}
+	name = {{ $git_name | quote }}
 
 [keepassxc]
 	database = "~/Secrets/personal.kdbx"
+
+encryption = "age"
+[age]
+    passphrase = true

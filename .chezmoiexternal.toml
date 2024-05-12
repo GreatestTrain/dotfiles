@@ -3,3 +3,10 @@
 	url = "https://github.com/GreatestTrain/nvim-config"
 	refreshperiod = "24h"
 
+[".config/xournalpp/plugins/inkpath"]
+	type = "archive"
+	url = "https://github.com/WillNilges/inkpath/releases/download/v0.2.0/ImageTranscription.tar.gz"
+	exact = true
+	stripComponents = 1
+	refreshPeriod="168h"
+
