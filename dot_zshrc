@@ -1,5 +1,7 @@
 #!/bin/zsh
 # vim: set filetype=zsh:
+#
+
 alias check_gpu_power="cat /sys/class/drm/card*/device/power_state"
 
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -11,6 +13,8 @@ LS_COLORS="di=1;34:ln=1;36:so=1;35:pi=33:ex=1;32:bd=44;37;0:cd=44;37;0:su=41;30;
 alias -s tex=nvim
 alias -s html=w3m
 alias -s org=w3m
+alias ls=lsd
+alias cat=bat
 # end of aliases
 
 # bindings
@@ -26,16 +30,26 @@ bindkey '^R' history-incremental-search-backward
 # end of bindings
 
 # compinstall config
-zstyle ':completion:*' auto-description 'Specify: %d'
+zmodload zsh/complist
+bindkey -M menuselect 'h' vi-backward-char
+bindkey -M menuselect 'k' vi-up-line-or-history
+bindkey -M menuselect 'j' vi-down-line-or-history
+bindkey -M menuselect 'l' vi-forward-char
+setopt AUTO_PARAM_SLASH
+# setopt LIST_PACKED
+setopt MENU_COMPLETE
+setopt GLOB_COMPLETE
+zstyle ':completion:*' verbose yes
+zstyle ':completion:*' file-sort modification
+zstyle ':completion:*:*:*:*:corrections' format '%F{blue}!- %d (errors: %e) -!%f'
+zstyle ':completion:*:*:*:*:descriptions' format '%F{blue}-- %d --%f'
 zstyle ':completion:*' completer _complete _ignored _correct _approximate
-zstyle ':completion:*' format 'Completing %d'
 zstyle ':completion:*' group-name ''
-zstyle ':completion:*' list-colors ''
+zstyle ':completion:*' list-colors "$LS_COLORS"
 zstyle ':completion:*' matcher-list 'm:{[:lower:]}={[:upper:]} m:{[:lower:][:upper:]}={[:upper:][:lower:]} r:|[._-]=* r:|=*'
-#zstyle ':completion:*' menu select=long
-# zstyle ':completion:*' select-prompt '%SScrolling active: current selection at %p%s'
-zstyle ':completion:*' verbose true
-zstyle ':completion:*' menu select
+zstyle ':completion:*' menu select=10
+zstyle ':completion:*:messages' format ' %F{purple} -- %d --%f'
+zstyle ':completion:*:warnings' format ' %F{red}-- no matches found --%f'
 # end of compinstall config
 
 # prompt customization
@@ -50,10 +64,10 @@ promptinit
 
 # Autocompletion
 ZSH_AUTOSUGGEST_STRATEGY=(match_prev_cmd completion)
-
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000
