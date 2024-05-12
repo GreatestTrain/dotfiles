@@ -1,5 +1,5 @@
 [Appearance]
-ColorScheme=Modus-Vivendi
+ColorScheme=Breeze
 Font=CaskaydiaCove Nerd Font,11,-1,5,50,0,0,0,0,0
 
 [General]
