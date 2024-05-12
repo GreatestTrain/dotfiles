@@ -5,14 +5,14 @@ data.cuda = {{ promptBool "Is cuda enabled: " (eq (output (joinPath .chezmoi.con
 sourceDir = "~/.dotfiles"
 
 [git]
-    autoPush = true
+	autoPush = true
 	autoAdd = true
 	autoCommit = true
 	commitMessageTemplate = ´{{ now | quote }}´
 
 [data.git]
-	email = {{- promptString "Git global user.email: " "96893357+GreatestTrain@users.noreply.github.com" | quote -}}
-	name = {{- cat (promptString "Git global user.name: " .chezmoi.username ) .chezmoi.hostname | replace " " "@" | quote -}}
+	email = {{ promptString "Git global user.email: " "96893357+GreatestTrain@users.noreply.github.com" | quote }}
+	name = {{ cat (promptString "Git global user.name: " .chezmoi.username ) .chezmoi.hostname | replace " " "@" | quote }}
 
 [keepassxc]
 	database = "~/Secrets/personal.kdbx"
