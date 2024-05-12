@@ -1,0 +1,36 @@
+[Added Associations]
+application/json=org.kde.kate.desktop;
+application/pdf=okularApplication_pdf.desktop;org.onlyoffice.desktopeditors.desktop;krita_pdf.desktop;libreoffice-draw.desktop;firefox.desktop;org.kde.itinerary.desktop;org.inkscape.Inkscape.desktop;com.github.xournalpp.xournalpp.desktop;gimp.desktop;
+application/vnd.oasis.opendocument.spreadsheet-template=libreoffice-calc.desktop;org.onlyoffice.desktopeditors.desktop;org.kde.ark.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=org.onlyoffice.desktopeditors.desktop;libreoffice-writer.desktop;org.kde.ark.desktop;
+application/zip=org.kde.ark.desktop;
+inode/directory=org.kde.dolphin.desktop;
+text/markdown=zettlr.desktop;org.kde.kwrite.desktop;org.kde.ghostwriter.desktop;okularApplication_md.desktop;org.kde.kate.desktop;code-oss.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;neovide.desktop;nvim.desktop;com.vscodium.codium.desktop;
+text/plain=org.kde.kwrite.desktop;org.kde.kate.desktop;code-oss.desktop;org.kde.ghostwriter.desktop;libreoffice-writer.desktop;neovide.desktop;okularApplication_txt.desktop;nvim.desktop;
+x-scheme-handler/discord-396515353498484736=discord-396515353498484736.desktop;
+x-scheme-handler/geo=qwant-maps-geo-handler.desktop;
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
+x-scheme-handler/mailto=org.kde.kmail2.desktop;
+x-scheme-handler/tel=org.kde.kdeconnect.handler.desktop;
+
+[Default Applications]
+application/json=org.kde.kate.desktop;
+application/pdf=okularApplication_pdf.desktop;
+application/vnd.oasis.opendocument.spreadsheet-template=libreoffice-calc.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=org.onlyoffice.desktopeditors.desktop;
+application/zip=org.kde.ark.desktop;
+inode/directory=org.kde.dolphin.desktop;
+text/markdown=zettlr.desktop;
+text/plain=org.kde.kwrite.desktop;
+x-scheme-handler/discord-396515353498484736=discord-396515353498484736.desktop
+x-scheme-handler/geo=qwant-maps-geo-handler.desktop;
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
+x-scheme-handler/mailto=org.kde.kmail2.desktop;
+x-scheme-handler/tel=org.kde.kdeconnect.handler.desktop;
+
+[Removed Associations]
+application/pdf=org.kde.okular.desktop;
+application/vnd.oasis.opendocument.spreadsheet-template=org.prismlauncher.PrismLauncher.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=org.prismlauncher.PrismLauncher.desktop;
