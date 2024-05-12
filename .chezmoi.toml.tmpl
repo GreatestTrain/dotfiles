@@ -1,6 +1,6 @@
 # vim: set filetype=toml:
 
-data.cuda = {{ promptBool "Is cuda enabled: " (output (joinPath .chezmoi.config.sourceDir ".scripts" "check_cuda.sh"))=="true" }}
+data.cuda = {{ promptBool "Is cuda enabled: " (eq (output (joinPath .chezmoi.config.sourceDir ".scripts" "check_cuda.sh")) "true") }}
 
 sourceDir = "~/.dotfiles"
 
