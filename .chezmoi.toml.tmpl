@@ -1,6 +1,6 @@
 
 
-data.cuda = {{ promptBool "Is cuda enabled: " (output "~/.local/bin/check_cuda.sh") }}
+data.cuda = {{ promptBool "Is cuda enabled: " (output (joinPath .chezmoi.config.sourceDir ".scripts" "check_cuda.sh")) }}
 
 sourceDir = "~/.dotfiles"
 
