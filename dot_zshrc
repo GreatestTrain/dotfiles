@@ -90,3 +90,8 @@ eval "$(navi widget zsh)"
 autoload -Uz ztodo
 chpwd() { ztodo; ztodo list }
 # end of ztodo config
+
+# startship
+if which starship; then
+	eval "$(starship init zsh)"
+# end of starship
