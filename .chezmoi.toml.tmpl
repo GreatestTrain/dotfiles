@@ -14,6 +14,13 @@ sourceDir = "~/.dotfiles"
 	email = {{ promptString "Git global user.email: " "96893357+GreatestTrain@users.noreply.github.com" | quote }}
 	name = {{ cat (promptString "Git global user.name: " .chezmoi.username ) .chezmoi.hostname | replace " " "@" | quote }}
 
+[diff]
+	command = "nvim"
+	args = ["-dO"]
+
+[edit]
+	watch = true
+
 [keepassxc]
 	database = "~/Secrets/personal.kdbx"
 
