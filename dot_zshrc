@@ -94,4 +94,5 @@ chpwd() { ztodo; ztodo list }
 # startship
 if which starship; then
 	eval "$(starship init zsh)"
+fi
 # end of starship
