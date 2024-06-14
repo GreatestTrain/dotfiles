@@ -92,7 +92,7 @@ chpwd() { ztodo; ztodo list }
 # end of ztodo config
 
 # startship
-if which starship; then
+if which starship &>/dev/null ; then
 	eval "$(starship init zsh)"
 fi
 # end of starship
