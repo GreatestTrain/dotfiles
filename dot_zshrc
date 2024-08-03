@@ -13,7 +13,7 @@ LS_COLORS="di=1;34:ln=1;36:so=1;35:pi=33:ex=1;32:bd=44;37;0:cd=44;37;0:su=41;30;
 alias -s tex=nvim
 alias -s html=w3m
 alias -s org=w3m
-alias ls=lsd
+alias ls="lsd -1 --group-directories-first --git --gitsort"
 alias cat=bat
 # end of aliases
 
@@ -27,7 +27,6 @@ bindkey "^[[3~"  delete-char
 bindkey '^[[A' up-line-or-search
 bindkey '^[[B' down-line-or-search
 bindkey '^R' history-incremental-search-backward
-# end of bindings
 
 # compinstall config
 zmodload zsh/complist
@@ -35,6 +34,8 @@ bindkey -M menuselect 'h' vi-backward-char
 bindkey -M menuselect 'k' vi-up-line-or-history
 bindkey -M menuselect 'j' vi-down-line-or-history
 bindkey -M menuselect 'l' vi-forward-char
+bindkey -M menuselect '^[[Z' reverse-menu-complete
+# end of bindings
 setopt AUTO_PARAM_SLASH
 # setopt LIST_PACKED
 setopt MENU_COMPLETE
@@ -91,8 +92,13 @@ autoload -Uz ztodo
 chpwd() { ztodo; ztodo list }
 # end of ztodo config
 
+<<<<<<< HEAD
 # startship
 if which starship &>/dev/null ; then
 	eval "$(starship init zsh)"
 fi
+=======
+# starship
+eval "$(starship init zsh)"
+>>>>>>> ec35b57 (Update .config/klassy/klassyrc)
 # end of starship

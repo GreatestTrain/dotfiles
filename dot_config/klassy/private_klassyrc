@@ -84,6 +84,7 @@ TitleBarRightMargin=5
 TitleBarTopMargin=3.5
 
 [Windeco]
+BoldButtonIcons=BoldIconsFine
 ButtonIconStyle=StyleOxygen
 ButtonShape=ShapeSmallCircle
 ColorizeThinWindowOutlineWithButton=false

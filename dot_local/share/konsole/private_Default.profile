@@ -1,5 +1,5 @@
 [Appearance]
-ColorScheme=Breeze
+ColorScheme=Gruvbox Material Hard Dark
 Font=CaskaydiaCove Nerd Font,11,-1,5,50,0,0,0,0,0
 
 [General]
