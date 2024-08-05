@@ -92,13 +92,6 @@ autoload -Uz ztodo
 chpwd() { ztodo; ztodo list }
 # end of ztodo config
 
-<<<<<<< HEAD
-# startship
-if which starship &>/dev/null ; then
-	eval "$(starship init zsh)"
-fi
-=======
 # starship
 eval "$(starship init zsh)"
->>>>>>> ec35b57 (Update .config/klassy/klassyrc)
 # end of starship
