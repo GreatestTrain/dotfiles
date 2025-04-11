@@ -92,6 +92,7 @@ CornerRadius=5
 DrawBackgroundGradient=true
 IconSize=IconSmallMedium
 SystemIconSize=SystemIcon18
+WindowCornerRadius=5.999999999999994
 
 [WindowOutlineStyle]
 LockThinWindowOutlineStyleActiveInactive=true
