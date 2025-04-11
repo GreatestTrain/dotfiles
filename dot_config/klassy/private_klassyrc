@@ -74,6 +74,10 @@ MenuOpacity=80
 ScrollBarSliderThicknessMouseNotOverPercent=60
 TabBarDrawCenteredTabs=true
 
+[SystemIconGeneration]
+KlassyDarkIconThemeInherits=WhiteSur-green-dark
+KlassyIconThemeInherits=WhiteSur-green-light
+
 [TitleBarOpacity]
 ActiveTitleBarOpacity=70
 
