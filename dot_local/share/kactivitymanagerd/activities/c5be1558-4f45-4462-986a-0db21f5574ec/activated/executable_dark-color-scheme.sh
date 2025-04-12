@@ -1,7 +1,7 @@
 #!/bin/sh
 
 COLORSCHEME="SummaculateNight"
-ICONTHEME="Newaita-reborn-yellow-dark"
+ICONTHEME="Klassy Dark"
 
 plasma-apply-colorscheme "$COLORSCHEME" || plasma-apply-colorscheme breeze-dark ;
 /usr/lib/plasma-changeicons "$ICONTHEME"
