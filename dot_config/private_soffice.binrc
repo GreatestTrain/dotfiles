@@ -102,10 +102,6 @@ ForegroundNormal=0,0,0
 ForegroundPositive=39,174,96
 ForegroundVisited=170,0,255
 
-[FileDialogSize]
-1920x1080 screen: Height=641
-1920x1080 screen: Width=960
-
 [Icons]
 Theme=klassy
 
@@ -115,4 +111,4 @@ widgetStyle=Oxygen
 [KFileDialog Settings]
 Places Icons Auto-resize=false
 Places Icons Static Size=22
-detailViewIconSize=22
+detailViewIconSize=64

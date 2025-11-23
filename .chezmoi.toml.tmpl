@@ -1,7 +1,7 @@
 # vim: set filetype=toml:
 
-encryption = "age"
-data.cuda = {{ promptBool "Is cuda enabled: " (eq (output (joinPath .chezmoi.config.sourceDir ".scripts" "check_cuda.sh")) "true") }}
+encryption = "gpg"
+data.cuda = {{ promptBool "Is CUDA avaible: " (eq (output (joinPath .chezmoi.config.sourceDir ".scripts" "check_cuda.sh")) "true") }}
 
 sourceDir = "~/.dotfiles"
 
@@ -25,5 +25,5 @@ sourceDir = "~/.dotfiles"
 [keepassxc]
 	database = "~/Secrets/personal.kdbx"
 
-[age]
-    passphrase = true
+[gpg]
+    recipient = "csr.manrique02@outlook.com"

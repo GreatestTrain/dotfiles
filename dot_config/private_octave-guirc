@@ -102,8 +102,9 @@ ForegroundNormal=0,0,0
 ForegroundPositive=39,174,96
 ForegroundVisited=170,0,255
 
-[Icons]
-Theme=klassy
-
 [KDE]
 widgetStyle=Breeze
+
+[KFileDialog Settings]
+Places Icons Auto-resize=true
+Places Icons Static Size=48

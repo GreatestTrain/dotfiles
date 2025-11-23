@@ -2,6 +2,14 @@
 # vim: set filetype=zsh:
 #
 
+if [ -n "$DISTROBOX_ENTER_PATH" ]; then
+	return 0
+fi
+
+if [ -x "$(which pixi)" ]; then
+	export PATH="$HOME/.pixi/bin:$PATH"
+fi
+
 alias check_gpu_power="cat /sys/class/drm/card*/device/power_state"
 
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -10,9 +18,6 @@ source /usr/share/doc/pkgfile/command-not-found.zsh
 LS_COLORS="di=1;34:ln=1;36:so=1;35:pi=33:ex=1;32:bd=44;37;0:cd=44;37;0:su=41;30;0:sg=46;30;0:tw=42;30;0:ow=43;30;0"
 
 # aliases
-alias -s tex=nvim
-alias -s html=w3m
-alias -s org=w3m
 alias ls="lsd"
 alias l='ls -l'
 alias la='ls -a'
@@ -34,7 +39,7 @@ bindkey '^R' history-incremental-search-backward
 bindkey '^[^M' self-insert-unmeta
 autoload -z edit-command-line
 zle -N edit-command-line
-bindkey "^E" edit-command-line
+bindkey "^A" edit-command-line
 
 # compinstall config
 zmodload zsh/complist
@@ -103,3 +108,7 @@ chpwd() { ztodo; ztodo list }
 # starship
 eval "$(starship init zsh)"
 # end of starship
+
+# zoxide
+eval "$(zoxide init zsh)"
+# end of zoxide
